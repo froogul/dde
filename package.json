@@ -64,3 +64,5 @@
     }
   }
 }
+
+"electron-rebuild": "electron-rebuild -w opencv4nodejs"

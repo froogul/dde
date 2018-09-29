@@ -10,7 +10,7 @@
   "scripts": {
     "test": "dependency-check ./package.json",
     "start": "electron main",
-    "rebuild": "electron-rebuild",
+    "rebuild": "electron-rebuild -w opencv4nodejs",
     "build": "build --dir",
     "dist": "build",
     "appveyor": "build.cmd",
@@ -65,4 +65,3 @@
   }
 }
 
-"electron-rebuild": "electron-rebuild -w opencv4nodejs"
